@@ -52,11 +52,7 @@ def hello():
         verify_error = 'Passwords must match'
         verify=''
 
-    #if password == "" and verify == "":
-        #password_error = 'Invalid Password'
-       # password=''
-        #verify_error = "Invalid Password"
-        #verify=''
+    
 
     
     optional = ''
@@ -73,7 +69,7 @@ def hello():
         
     
     if email.isalnum():
-        email_error = "Email is invalid"             
+        email_error = "(ex. name@gmail.com)"             
 
 
 
